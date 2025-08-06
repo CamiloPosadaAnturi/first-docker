@@ -1,26 +1,49 @@
-## Nombre del proyecto
-proyecto_python
+# Proyecto Python
 
-## Descripción del proyecto
-Este es un proyecto simple de prueba, que imprime la frase "inicio de proyecto" en la consola.
+## Descripción
 
-## Tecnologias utilizadas
-Python
-Markdown
-Docker
+Este es un proyecto de ejemplo desarrollado en Python, el cual imprime un mensaje inicial en la consola. El propósito es demostrar una configuración básica utilizando Docker para contenerización.
 
-## Archivos
-- `project.py`: Archivo principal de Python.
-- `Dockerfile`: Instrucciones para construir la imagen Docker.
-- `README.md`: Documentación del proyecto.
+## Tecnologías utilizadas
 
-### 1. Abrir la terminal en la carpeta del proyecto
-Si estás en Windows y tu carpeta está en el Escritorio
+- 🐍 Python  
+- 🐳 Docker  
+- 📝 Markdown  
 
-## Ejecucion
-cd %USERPROFILE%\Desktop\proyecto_python(o donde se tenga la carpeta proyecto_python)
+## Requisitos previos
+
+- Tener Docker instalado.
+- Conexión a internet para descargar las dependencias (si las hubiera).
+
+## Estructura del proyecto
+
+- `project.py`: Script principal de Python.  
+- `Dockerfile`: Instrucciones para construir la imagen Docker.  
+- `README.md`: Documentación del proyecto.  
+
+## Ejecución
+
+1. Abre la terminal en la carpeta del proyecto (Ejemplo en Windows):
+
+```bash
+cd %USERPROFILE%\Desktop\proyecto_python
+o donde se encuentre en el archivo.
+```
+
+2. Construye la imagen de Docker:
+
+```bash
 docker build -t proyecto_python .
+```
+
+3. Ejecuta el contenedor:
+
+```bash
 docker run proyecto_python
+```
 
 ## Autor
-JUAN CAMILO POSADA ANTURI
+
+**Juan Camilo Posada Anturi**  
+[GitHub](https://github.com/CamiloPosadaAnturi)  
+camiloposada1005@gmail.com
