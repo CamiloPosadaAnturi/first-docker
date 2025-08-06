@@ -27,7 +27,7 @@ Este es un proyecto de ejemplo desarrollado en Python, el cual imprime un mensaj
 
 ```bash
 cd %USERPROFILE%\Desktop\proyecto_python
-o donde se encuentre en el archivo.
+# o donde se encuentre en el archivo.
 ```
 
 2. Construye la imagen de Docker:
